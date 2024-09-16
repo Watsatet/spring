@@ -10,6 +10,6 @@ import java.util.List;
 @Getter
 @Setter
 public class PaginatorAndDetails {
-    private List<User> details;
+    private List details;
     private PageStructure paginator;
 }

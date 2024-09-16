@@ -6,9 +6,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ResponseStructure
+public class ResponseStructure<T>
 {
     private int httpStatus;
     private String message;
-    private PaginatorAndDetails body;
+    private T body;
 }

@@ -3,11 +3,13 @@ package com.entoo.demo.document;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 public class RiderAggregationResult {
     private String deductionId;          // Maps to "$penaltyId"
-    private Object deductionCategory;    // Maps to "$penaltyCategories" (use Object if it's an array or complex type)
+    private List<String> deductionCategory;    // Maps to "$penaltyCategories" (use Object if it's an array or complex type)
     private String riderName;            // Maps to "$riderName"
     private String clientName;           // Maps to "$clientName"
     private String hubName;              // Maps to "$result1.name"

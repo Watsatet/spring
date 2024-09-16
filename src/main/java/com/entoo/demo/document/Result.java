@@ -1,5 +1,6 @@
 package com.entoo.demo.document;
 
+import com.entoo.demo.Model.Report;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +10,6 @@ import java.util.List;
 @Getter
 public class Result
 {
-    private Count countFacet;
-    private List<User> projectionFacet;
+    private List<Count> countFacet;
+    private List<Report> projectionFacet;
 }
